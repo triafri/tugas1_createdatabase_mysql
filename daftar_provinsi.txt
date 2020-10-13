@@ -8,11 +8,11 @@ singkatan_iso VARCHAR(10),
 ibu_kota VARCHAR(50),
 tgl_diresmikan DATE,
 populasi INT,
-luas_total DECIMAL(8,2),
+luas_total FLOAT,
 populasi_luas INT,
-apbd_2014 DECIMAL(7,2),
-pdrb_2014 DECIMAL(7,2),
-pdrb_perkapita DECIMAL(7,2),
+apbd_2014 FLOAT,
+pdrb_2014 FLOAT,
+pdrb_perkapita FLOAT,
 ipm_2014 FLOAT);
 
 INSERT INTO provinsi VALUES
